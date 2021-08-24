@@ -1,0 +1,114 @@
+body {
+    color: black;
+}
+.jiangnan {
+    width: 1024px;
+    margin: 68px auto 0;
+    padding-top: 35px;
+    padding-bottom: 150px;
+    background-color: #F5F5F5;
+}
+.pyi {
+    width: 21%;
+    height: 46px;
+    margin-left: 22px;
+    background-color: #4D8244;
+    font-size: 23px;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+}
+.per {
+    width: 841px;
+    height: 180px;
+    margin-top: 21.204px;
+    margin-left: 86.584px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.jiangnan .zhejiang {
+    width: 858px;
+    margin: 0 auto;
+}
+.jiangnan .zhejiang ul {
+    width: 792px;
+    height: 50px;
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+.jiangnan .zhejiang ul li {
+    float: left;
+    width: 132px;
+    height: 100%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: 	#FF6347;
+}
+.jiangnan .zhejiang ul li:nth-child(1) {
+    background-color: rgba(102, 204, 102, 0.4);
+}
+.jiangnan .zhejiang ul li:nth-child(2) {
+    background-color: rgba(0, 153, 255, 0.4);
+}
+.jiangnan .zhejiang ul li:nth-child(3) {
+    background-color: rgba(255, 204, 102, 0.4);
+}
+.jiangnan .zhejiang ul li:nth-child(4) {
+    background-color: rgba(255, 102, 102, 0.4);
+}
+.jiangnan .zhejiang ul li:nth-child(5) {
+    background-color: rgba(194, 128, 255, 0.4);
+}
+.jiangnan .zhejiang ul li:nth-child(6) {
+    background-color: rgba(0, 191, 191, 0.4);
+}
+.jiangnan .zhejiang .hangzhou {
+    position: relative;
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 58px;
+    padding-bottom: 145px;
+    background-color: rgba(202, 249, 130, 0.65);
+    overflow: hidden;
+}
+.jiangnan .zhejiang .hangzhou .yi {
+    display: inline-block;
+    width: 60%;
+    font-size: 20px;
+}
+.jiangnan .zhejiang .hangzhou .tu {
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    margin-left: 15px;
+    overflow: hidden;
+}
+.jiangnan .zhejiang .hangzhou .tu img {
+    height: 100%;
+    margin: 0 37%;
+}
+.jiangnan .zhejiang .hangzhou .shang {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 30px;
+}
+.jiangnan .zhejiang .hangzhou .xia {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-size: 30px;
+}
+.jiangnan button {
+    width: 200px;
+    height: 48px;
+    margin: 70px 0 0 400px;
+    border-radius: 10px;
+    background-color: #0079FE;
+    opacity: .8;
+    color: #fff;
+    font-size: 22px;
+}

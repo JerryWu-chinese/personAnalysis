@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="CSS/part_two.css">
+    <script src="JS/part_two.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div class="dongbei">
+        <img src="images/u2.png" alt="">
+        <p>成都东软学院</p>
+        <ul class="jilin">
+            <li>首页</li>
+            <li>个人资料填写</li>
+            <li>退出登录</li>
+        </ul>
+    </div>
+    <!-- 主体模块 -->
+    <div class="jiangnan">
+        <ul class="jiangsu">
+            <li>第一部分</li>
+            <li>第二部分</li>
+            <li>第三部分</li>
+            <li>第四部分</li>
+            <li>第五部分</li>
+        </ul>
+        <p class="pyi">你所感兴趣的活动</p>
+        <p class="per">
+            下面列举了若干活动，请就这些活动判断你的好恶。喜欢的，请在“是”栏里打√得1分；不喜欢的在“否”栏里打×得0分。请按顺序回答全部问题。
+        </p>
+        <div class="zhejiang">
+            <ul class="ningbo">
+                <li>|：研究型</li>
+                <li>A：艺术型</li>
+                <li>S：社会型</li>
+                <li>E：企业型</li>
+                <li>C：传统型</li>
+                <li>R：现实型</li>
+            </ul>
+            <div class="hangzhou">
+                <p class="title">|：研究型活动</p>
+                <ul class="total">
+                    <li><i>1. 读科技图书和杂志</i><p><input type="radio" name="panduan1" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan1" value="0"><label class="fou">否</label></p></li>
+                    <li><i>2. 在实验室工作</i><p><input type="radio" name="panduan2" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan2" value="0"><label class="fou">否</label></p></li>
+                    <li><i>3. 改良水果品种，培育新的水果</i><p><input type="radio" name="panduan3" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan3" value="0"><label class="fou">否</label></p></li>
+                    <li><i>4. 调查了解土和金属等物质的成分</i><p><input type="radio" name="panduan4" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan4" value="0"><label class="fou">否</label></p></li>
+                    <li><i>5. 研究自己选择的特殊问题</i><p><input type="radio" name="panduan5" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan5" value="0"><label class="fou">否</label></p></li>
+                    <li><i>6. 解算术或玩数学游戏</i><p><input type="radio" name="panduan6" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan6" value="0"><label class="fou">否</label></p></li>
+                    <li><i>7. 物理课</i><p><input type="radio" name="panduan7" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan7" value="0"><label class="fou">否</label></p></li>
+                    <li><i>8. 化学课</i><p><input type="radio" name="panduan8" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan8" value="0"><label class="fou">否</label></p></li>
+                    <li><i>9.几何课</i><p><input type="radio" name="panduan9" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan9" value="0"><label class="fou">否</label></p></li>
+                    <li><i>10. 生物课</i><p><input type="radio" name="panduan10" value="1" class="yes1"><label>是</label></p><p><input type="radio" name="panduan10" value="0"><label class="fou">否</label></p></li>
+                    <li><i>统计“是”一栏得分计：</i><input type="text" class="score"></li>
+                </ul>
+                <button class="xia">下一页</button>
+            </div>
+        </div>
+        <div class="zhejiang" style="display: none;">
+            <ul class="ningbo">
+                <li>|：研究型</li>
+                <li>A：艺术型</li>
+                <li>S：社会型</li>
+                <li>E：企业型</li>
+                <li>C：传统型</li>
+                <li>R：现实型</li>
+            </ul>
+            <div class="hangzhou">
+                <p class="title">A：艺术型活动</p>
+                <ul class="total">
+                    <li><i>1. 素描/制图或绘画</i><p><input type="radio" name="panduan1" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan1" value="0"><label class="fou">否</label></p></li>
+                    <li><i>2. 参加话剧/戏剧</i><p><input type="radio" name="panduan2" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan2" value="0"><label class="fou">否</label></p></li>
+                    <li><i>3. 设计家具/布置室内</i><p><input type="radio" name="panduan3" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan3" value="0"><label class="fou">否</label></p></li>
+                    <li><i>4. 练习乐器/参加乐队</i><p><input type="radio" name="panduan4" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan4" value="0"><label class="fou">否</label></p></li>
+                    <li><i>5. 欣赏音乐或戏剧</i><p><input type="radio" name="panduan5" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan5" value="0"><label class="fou">否</label></p></li>
+                    <li><i>6. 看小说/读剧本</i><p><input type="radio" name="panduan6" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan6" value="0"><label class="fou">否</label></p></li>
+                    <li><i>7. 从事摄影创作</i><p><input type="radio" name="panduan7" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan7" value="0"><label class="fou">否</label></p></li>
+                    <li><i>8. 写诗或吟诗</i><p><input type="radio" name="panduan8" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan8" value="0"><label class="fou">否</label></p></li>
+                    <li><i>9. 进艺术（美术/音乐）培训班</i><p><input type="radio" name="panduan9" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan9" value="0"><label class="fou">否</label></p></li>
+                    <li><i>10. 练习书法</i><p><input type="radio" name="panduan10" value="1" class="yes2"><label>是</label></p><p><input type="radio" name="panduan10" value="0"><label class="fou">否</label></p></li>
+                    <li><i>统计“是”一栏得分计：</i><input type="text" class="score"></li>
+                </ul>
+                <button class="shang">上一页</button>
+                <button class="xia">下一页</button>
+            </div>
+        </div>
+        <div class="zhejiang" style="display: none;">
+            <ul class="ningbo">
+                <li>|：研究型</li>
+                <li>A：艺术型</li>
+                <li>S：社会型</li>
+                <li>E：企业型</li>
+                <li>C：传统型</li>
+                <li>R：现实型</li>
+            </ul>
+            <div class="hangzhou">
+                <p class="title">S：社会型活动</p>
+                <ul class="total">
+                    <li><i>1. 学校或单位组织的正式活动</i><p><input type="radio" name="panduan1" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan1" value="0"><label class="fou">否</label></p></li>
+                    <li><i>2. 参加某个社会团体或俱乐部活动</i><p><input type="radio" name="panduan2" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan2" value="0"><label class="fou">否</label></p></li>
+                    <li><i>3. 帮助别人解决困难</i><p><input type="radio" name="panduan3" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan3" value="0"><label class="fou">否</label></p></li>
+                    <li><i>4. 照顾儿童</i><p><input type="radio" name="panduan4" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan4" value="0"><label class="fou">否</label></p></li>
+                    <li><i>5. 出席晚会、联欢会、茶话会</i><p><input type="radio" name="panduan5" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan5" value="0"><label class="fou">否</label></p></li>
+                    <li><i>6. 和大家一起出去郊游</i><p><input type="radio" name="panduan6" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan6" value="0"><label class="fou">否</label></p></li>
+                    <li><i>7. 想获得关于心理方面的知识</i><p><input type="radio" name="panduan7" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan7" value="0"><label class="fou">否</label></p></li>
+                    <li><i>8. 参加讲座会或辩论会</i><p><input type="radio" name="panduan8" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan8" value="0"><label class="fou">否</label></p></li>
+                    <li><i>9. 观看或参加体育比赛和运动会</i><p><input type="radio" name="panduan9" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan9" value="0"><label class="fou">否</label></p></li>
+                    <li><i>10. 结交新朋友</i><p><input type="radio" name="panduan10" value="1" class="yes3"><label>是</label></p><p><input type="radio" name="panduan10" value="0"><label class="fou">否</label></p></li>
+                    <li><i>统计“是”一栏得分计：</i><input type="text" class="score"></li>
+                </ul>
+                <button class="shang">上一页</button>
+                <button class="xia">下一页</button>
+            </div>
+        </div>
+        <div class="zhejiang" style="display: none;">
+            <ul class="ningbo">
+                <li>|：研究型</li>
+                <li>A：艺术型</li>
+                <li>S：社会型</li>
+                <li>E：企业型</li>
+                <li>C：传统型</li>
+                <li>R：现实型</li>
+            </ul>
+            <div class="hangzhou">
+                <p class="title">E：企业型活动</p>
+                <ul class="total">
+                    <li><i>1. 说服鼓动他人</i><p><input type="radio" name="panduan1" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan1" value="0"><label class="fou">否</label></p></li>
+                    <li><i>2. 卖东西</i><p><input type="radio" name="panduan2" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan2" value="0"><label class="fou">否</label></p></li>
+                    <li><i>3. 谈论政治</i><p><input type="radio" name="panduan3" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan3" value="0"><label class="fou">否</label></p></li>
+                    <li><i>4. 制定计划、参加会议</i><p><input type="radio" name="panduan4" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan4" value="0"><label class="fou">否</label></p></li>
+                    <li><i>5. 以自己的意志影响别人的行为</i><p><input type="radio" name="panduan5" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan5" value="0"><label class="fou">否</label></p></li>
+                    <li><i>6. 在社会团体中担任职务</i><p><input type="radio" name="panduan6" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan6" value="0"><label class="fou">否</label></p></li>
+                    <li><i>7. 检查与评价别人的工作</i><p><input type="radio" name="panduan7" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan7" value="0"><label class="fou">否</label></p></li>
+                    <li><i>8. 结交名流</i><p><input type="radio" name="panduan8" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan8" value="0"><label class="fou">否</label></p></li>
+                    <li><i>9. 指导有某种目标的团体</i><p><input type="radio" name="panduan9" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan9" value="0"><label class="fou">否</label></p></li>
+                    <li><i>10. 参与政治活动</i><p><input type="radio" name="panduan10" value="1" class="yes4"><label>是</label></p><p><input type="radio" name="panduan10" value="0"><label class="fou">否</label></p></li>
+                    <li><i>统计“是”一栏得分计：</i><input type="text" class="score"></li>
+                </ul>
+                <button class="shang">上一页</button>
+                <button class="xia">下一页</button>
+            </div>
+        </div>
+        <div class="zhejiang" style="display: none;">
+            <ul class="ningbo">
+                <li>|：研究型</li>
+                <li>A：艺术型</li>
+                <li>S：社会型</li>
+                <li>E：企业型</li>
+                <li>C：传统型</li>
+                <li>R：现实型</li>
+            </ul>
+            <div class="hangzhou">
+                <p class="title">C：传统型活动</p>
+                <ul class="total">
+                    <li><i>1. 整理好桌面和房间</i><p><input type="radio" name="panduan1" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan1" value="0"><label class="fou">否</label></p></li>
+                    <li><i>2. 抄写文件和信件</i><p><input type="radio" name="panduan2" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan2" value="0"><label class="fou">否</label></p></li>
+                    <li><i>3. 为领导写报告或公务信函</i><p><input type="radio" name="panduan3" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan3" value="0"><label class="fou">否</label></p></li>
+                    <li><i>4. 检查个人收支情况</i><p><input type="radio" name="panduan4" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan4" value="0"><label class="fou">否</label></p></li>
+                    <li><i>5. 打字培训班</i><p><input type="radio" name="panduan5" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan5" value="0"><label class="fou">否</label></p></li>
+                    <li><i>6. 参加算盘、文秘等实务培训</i><p><input type="radio" name="panduan6" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan6" value="0"><label class="fou">否</label></p></li>
+                    <li><i>7. 参加商业会计培训班</i><p><input type="radio" name="panduan7" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan7" value="0"><label class="fou">否</label></p></li>
+                    <li><i>8. 参加情报处理培训班</i><p><input type="radio" name="panduan8" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan8" value="0"><label class="fou">否</label></p></li>
+                    <li><i>9. 整理信件、报告、记录等</i><p><input type="radio" name="panduan9" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan9" value="0"><label class="fou">否</label></p></li>
+                    <li><i>10. 写商业贸易信</i><p><input type="radio" name="panduan10" value="1" class="yes5"><label>是</label></p><p><input type="radio" name="panduan10" value="0"><label class="fou">否</label></p></li>
+                    <li><i>统计“是”一栏得分计：</i><input type="text" class="score"></li>
+                </ul>
+                <button class="shang">上一页</button>
+                <button class="xia">下一页</button>
+            </div>
+        </div>
+        <div class="zhejiang" style="display: none;">
+            <ul class="ningbo">
+                <li>|：研究型</li>
+                <li>A：艺术型</li>
+                <li>S：社会型</li>
+                <li>E：企业型</li>
+                <li>C：传统型</li>
+                <li>R：现实型</li>
+            </ul>
+            <div class="hangzhou">
+                <p class="title">R：现实型活动</p>
+                <ul class="total">
+                    <li><i>1. 装配修理电器或玩具</i><p><input type="radio" name="panduan1" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan1" value="0"><label class="fou">否</label></p></li>
+                    <li><i>2. 修理自行车</i><p><input type="radio" name="panduan2" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan2" value="0"><label class="fou">否</label></p></li>
+                    <li><i>3. 用木头做东西</i><p><input type="radio" name="panduan3" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan3" value="0"><label class="fou">否</label></p></li>
+                    <li><i>4. 开汽车或摩托车</i><p><input type="radio" name="panduan4" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan4" value="0"><label class="fou">否</label></p></li>
+                    <li><i>5. 用机器做东西</i><p><input type="radio" name="panduan5" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan5" value="0"><label class="fou">否</label></p></li>
+                    <li><i>6. 参加木工技术学习班</i><p><input type="radio" name="panduan6" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan6" value="0"><label class="fou">否</label></p></li>
+                    <li><i>7. 参加制图描图学习班</i><p><input type="radio" name="panduan7" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan7" value="0"><label class="fou">否</label></p></li>
+                    <li><i>8. 驾驶卡车或拖拉机</i><p><input type="radio" name="panduan8" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan8" value="0"><label class="fou">否</label></p></li>
+                    <li><i>9. 参加机械和电气学习班</i><p><input type="radio" name="panduan9" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan9" value="0"><label class="fou">否</label></p></li>
+                    <li><i>10. 装配修理机器</i><p><input type="radio" name="panduan10" value="1" class="yes6"><label>是</label></p><p><input type="radio" name="panduan10" value="0"><label class="fou">否</label></p></li>
+                    <li><i>统计“是”一栏得分计：</i><input type="text" class="score"></li>
+                </ul>
+                <button class="shang">上一页</button>
+                <button class="xia">下一部分</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

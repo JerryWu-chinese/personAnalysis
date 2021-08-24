@@ -1,0 +1,95 @@
+
+/*主体模块*/
+.dongnan {
+    width: 53.8%;
+    margin: 30px auto 0;
+    color: black;
+}
+.dongnan ul {
+    width: 44.4%;
+    height: 35px;
+    margin-bottom: 0;
+}
+.dongnan ul li {
+    float: left;
+    width: 18.2%;
+    height: 35px;
+    margin-right: 10px;
+    background-color: #DCDCDC;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dongnan ul li:first-child {
+    background-color: #F5F5F5;
+}
+.dongnan ul li:last-child {
+    margin-right: 0;
+}
+.dongnan .jiangnan {
+    position: relative;
+    width: 100%;
+    padding-top: 35px;
+    background-color: #F5F5F5;
+}
+.dongnan .jiangnan .pyi {
+    width: 31%;
+    height: 46px;
+    margin-left: 22px;
+    background-color: #4D8244;
+    font-size: 23px;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+}
+.dongnan .jiangnan .per {
+    width: 841px;
+    height: 68.4px;
+    margin-top: 21.204px;
+    margin-left: 86.584px;
+    font-size: 20px;
+}
+.dongnan .jiangnan .shanghai {
+    width: 83.7%;
+    margin: 32px auto 0;
+    padding-bottom: 145px;
+    background-color: rgba(202, 249, 130, 0.65);
+    overflow: hidden;
+}
+.dongnan .jiangnan .jiangxi {
+    width: 100%;
+    height: 100px;
+}
+.dongnan .jiangnan .shanghai .jiangsu {
+    margin-top: 35px;
+}
+.dongnan .jiangnan .shanghai .jiangsu p{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.dongnan .jiangnan .shanghai .jiangsu span {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 115px;
+    margin-right: 55px;
+    font-size: 22px;
+    font-weight: 300;
+}
+.dongnan .jiangnan .shanghai .jiangsu input {
+    width: 250px;
+    height: 30px;
+    vertical-align:baseline;
+}
+.dongnan .jiangnan .shanghai button {
+    width: 200px;
+    height: 48px;
+    margin: 100px 0 0 300px;
+    border-radius: 10px;
+    background-color: #0079FE;
+    opacity: .8;
+    color: #fff;
+    font-size: 22px;
+}
